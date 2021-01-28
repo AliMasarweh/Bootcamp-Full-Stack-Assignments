@@ -97,7 +97,7 @@
 
   /* Navbar */
   .navbar {
-    background: #333;
+    background: transparent;
     color: #fff;
     overflow: auto;
     margin: 0px;
@@ -169,6 +169,14 @@
 
 .models ul li a {
     /* make #FFF later */
-    color: #AAA;
+    color: #fff;
     font-weight: bold;
+}
+
+
+/* Show case section */
+.model-img {
+    position: relative;
+    top: 0%;
+    left: 0%;
 }
