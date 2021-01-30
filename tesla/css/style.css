@@ -12,10 +12,6 @@
     text-decoration: none;
   }
   
-  h1, h2, h3 {
-    padding-bottom: 20px;
-  }
-  
   p {
     margin: 10px 0;
   }
@@ -106,6 +102,7 @@
     height: 52px;
     margin: 0px -17px 0px 0px;
     padding: 0px 20px;
+    font-size: 14PX;
   }
   
   .navbar a {
@@ -123,7 +120,7 @@
   .navbar-side {
       display: inline;
       position: relative;
-      left: 52%;
+      left: 62%;
       top: 30%;
   }
 
@@ -190,4 +187,38 @@
 
 .gotham-mediem-style {
   font-family: "Gotham";
+}
+
+.ham-menu {
+  height: 15px;
+}
+
+
+.footer {
+  position: relative;
+  left: 38%;
+  top: 72%;
+  color: #fff;
+}
+
+.specs {
+  display: inline;
+}
+
+.border-to-the-right {
+  border-right: 1px solid #fff;
+}
+
+.btn-transparent-bg {
+ background-color: transparent;
+} 
+
+.btn-round {
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
+.btn-transparent-bg:hover {
+  background-color: white;
+  color: #000;
 }
