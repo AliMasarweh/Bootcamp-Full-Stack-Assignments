@@ -197,7 +197,7 @@
 .footer {
   position: relative;
   left: 38%;
-  top: 72%;
+  top: 52%;
   color: #fff;
 }
 
@@ -221,4 +221,30 @@
 .btn-transparent-bg:hover {
   background-color: white;
   color: #000;
+}
+
+.links {
+  position: relative;
+  top: 10%;
+  width: 60px;
+  height: 250px;
+}
+
+.links a{
+  color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-left: 1px solid #fff;
+}
+
+.links a:hover{
+  color: #fff;
+}
+
+.links a:checked{
+  border-left: 3px solid #fff;
 }
