@@ -229,6 +229,7 @@
   top: 10%;
   width: 60px;
   height: 250px;
+  z-index: 1;
 }
 
 .links a{
@@ -260,4 +261,12 @@
 
 .link-as-list-item input:checked + .link-as-list-item label {
   border-left: 3px solid #fff;
+}
+
+.links-dark a{
+  border-left: 1px solid #000;
+}
+
+.links-dark a:hover{
+  color: #000;
 }
