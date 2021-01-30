@@ -123,7 +123,7 @@
   .navbar-side {
       display: inline;
       position: relative;
-      left: 55%;
+      left: 52%;
       top: 30%;
   }
 
@@ -189,5 +189,5 @@
 }
 
 .gotham-mediem-style {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Gotham";
 }
