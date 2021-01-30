@@ -270,3 +270,34 @@
 .links-dark a:hover{
   color: #000;
 }
+
+.aside-desc {
+  width: 351px;
+  background-color: #fff;
+}
+
+#safety-description {
+  margin-left: 0px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+#safety-description .small-header {
+  font-size: 17px;
+}
+
+#safety-description h1 {
+  font-size: 28px;
+}
+
+#safety-description p {
+  font-size: 14px;
+  margin: 0px 0px 16px;
+  padding: 0px 0px 14px;
+  line-height: 16pt;
+}
+
+#safety-description #descr {
+  padding-top: 16px;
+}
